@@ -25,7 +25,7 @@ const Home: NextPage<Props> = ({ books }) => {
         </h1>
         <p className={styles.description}>
           {/* Get started by editing{' '} */}
-          📚Here you'll find all the material you need for class📝
+          📚Here you will find all the material you need for class📝
           {/* <code className={styles.code}>pages/index.tsx</code> */}
         </p>
 
