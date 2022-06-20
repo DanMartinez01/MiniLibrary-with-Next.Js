@@ -19,25 +19,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Link href="/why">
           <a><h3>Why do we learn English?</h3></a>
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/">
           <a><h3>Teacher Dani</h3></a>
         </Link>
       </nav>
       <Component {...pageProps} />
       <footer className={styles.footer}>
         <a>Teacher Dani 2022</a>
-        <a>Github</a>
-        <a>LinkedIn</a>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image alt="Vercel Logo" height={16} src="/vercel.svg" width={72} />
-          </span>
-        </a> */}
+        <Link href="https://github.com/DanMartinez01">Github</Link>
+        <Link href="https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/">LinkedIn</Link>
       </footer>
     </>
   );
