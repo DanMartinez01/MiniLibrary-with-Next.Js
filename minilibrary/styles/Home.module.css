@@ -21,7 +21,6 @@
   justify-content: center;
   background-color: black;
   color: white;
-  font-weight: bold;
 }
 
 .navbar a {
@@ -30,7 +29,7 @@
   align-items: center;
   flex-grow: 1;
   padding-left: 2rem;
-
+  font-weight: normal;
 }
 
 .Home {
@@ -210,17 +209,26 @@
     flex-direction: column;
   }
 
-  .navbar,
-  .Home {
+  .navbar {
     flex-direction: column;
     margin: 0 auto;
     padding: 0px;
+    font-size: small;
   }
 
-  .navbar a,
   .Home {
+    font-size: small;
+  }
+
+  .navbar a {
+    font-style: normal;
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-size: 2rem;
   }
 }

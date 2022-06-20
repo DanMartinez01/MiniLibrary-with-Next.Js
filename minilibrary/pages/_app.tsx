@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <nav className={styles.navbar}>
         <Link href="/">
-          <a className={styles.Home}><h1>HOME</h1></a>
+          <a className={styles.Home}><h3>HOME</h3></a>
         </Link>
         <Link href="/why">
           <a><h3>Why do we learn English?</h3></a>
