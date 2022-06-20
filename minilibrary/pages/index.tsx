@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+
 import data from '../data.json'
 import { Book } from '../types'
 
@@ -21,12 +22,10 @@ const Home: NextPage<Props> = ({ books }) => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          🙋Welcome to the book corner📚
+          🙋Welcome to the virtual library📚
         </h1>
         <p className={styles.description}>
-          {/* Get started by editing{' '} */}
           📚Here you will find all the material you need for class📝
-          {/* <code className={styles.code}>pages/index.tsx</code> */}
         </p>
 
         <div className={styles.grid}>
