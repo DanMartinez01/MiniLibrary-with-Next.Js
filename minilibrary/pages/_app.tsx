@@ -25,7 +25,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <footer className={styles.footer}>
         <Link className={styles.footerLink} href="https://github.com/DanMartinez01">Github</Link>
         <Link className={styles.footerLink} href="https://www.linkedin.com/in/daniela-mart%C3%ADnez-5935a9105/">LinkedIn</Link>
-        <a href="/"> The English Corner &copy;{new Date().getFullYear()}</a>
+        {/* <Link href="/"><a>The English Corner &copy;{new Date().getFullYear()}<a /></Link> */}
+        <Link href="/">The English Corner 2022</Link>
       </footer>
     </>
   );
