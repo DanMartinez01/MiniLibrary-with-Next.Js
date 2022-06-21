@@ -22,7 +22,7 @@ const Home: NextPage<Props> = ({ books }) => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          🙋Welcome to the English Corner📚
+          📚Welcome to the English Corner📚
         </h1>
         <p className={styles.description}>
           📚Here you will find all the material you need for class📝
