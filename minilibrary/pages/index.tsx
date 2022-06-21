@@ -15,14 +15,14 @@ const Home: NextPage<Props> = ({ books }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>My virtual library</title>
-        <meta name="description" content="All the books you need" />
+        <title>The English Corner</title>
+        <meta name="description" content="All the books you need for class and more" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          🙋Welcome to the virtual library📚
+          🙋Welcome to the English Corner📚
         </h1>
         <p className={styles.description}>
           📚Here you will find all the material you need for class📝

@@ -22,7 +22,7 @@ const Home: NextPage<Props> = ({ book }) => {
                 <h1 className={styles.title}>📚{book.title}</h1>
                 <iframe allow="autoplay" height="400" src={`${book.file}/preview`} />
                 <a className={styles.button} href={`${book.file}/view`}>
-                    <h2>Download &rarr;</h2>
+                    <h2>Download</h2>
                 </a>
             </main>
         </div>

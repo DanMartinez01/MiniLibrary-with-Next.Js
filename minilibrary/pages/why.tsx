@@ -27,11 +27,11 @@ const Why: NextPage<Props> = ({ book }) => {
                 </p>
                 <h3 className={styles.descriptionText}> Sounds great, right? So, now you know that it’s a good idea to learn a language, why is it important to learn English?</h3>
                 <div className={styles.descriptionCardsBox}>
-                    <p className={styles.CardsText}>Studying English can help you get a job
+                    <p className={styles.CardsText}>Studying English can help you get a job: <br />
                         English is the language of science, aviation, computers, diplomacy, and tourism. Knowing English increases your chances of getting the job you want.</p>
-                    <p className={styles.CardsText}>Travelling is a lot easier with a good knowledge of English
+                    <p className={styles.CardsText}>Travelling is a lot easier with a good knowledge of English: <br />
                         Even if you are in a country where English is not the official language, chances are that English will still be used as a tool for communication!</p>
-                    <p className={styles.CardsText}>English is the language of the media industry
+                    <p className={styles.CardsText}>English is the language of the media industry:<br />
                         If you speak English, you won’t need to rely on translations and subtitles anymore to enjoy your favourite books, songs, films and TV shows!</p>
                 </div>
 

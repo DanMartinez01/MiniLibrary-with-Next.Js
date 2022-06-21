@@ -40,6 +40,10 @@
   font-weight: normal;
 }
 
+.navbar a:hover {
+  color: #97a2ad;
+}
+
 .Home {
   font-style: italic;
   font-size: larger;
@@ -51,7 +55,7 @@
   flex: 1;
   flex-direction: column;
   padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.966);
+  background-color: #000000f1;
   color: white;
 }
 
@@ -62,6 +66,12 @@
   padding: .2rem;
   justify-content: left;
   align-items: left;
+}
+
+
+
+.footer a:hover {
+  color: #97a2ad;
 }
 
 .title a {
@@ -150,14 +160,14 @@
 
 .button {
   margin: 1rem;
-  padding: .5rem;
+  padding: .2rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .descriptionText {
@@ -194,8 +204,8 @@
 .button:hover,
 .button:focus,
 .button:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #E0FF00;
+  border-color: #E0FF00;
 }
 
 .logo {
